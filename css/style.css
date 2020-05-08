@@ -1,0 +1,54 @@
+/* for vertical navbar */
+
+#avatar{
+    height: 35px;
+    border-radius: 50%;
+}
+
+#vertical-nav button{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#vertical-nav button > a {
+    text-transform: capitalize;
+    color: black !important;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+
+#vertical-nav h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#vertical-nav .line{
+    width: 200px;
+    border: 0.5px solid black;
+    margin-left: 15px;
+}
+
+#vertical-nav #content > a{
+    margin-left: 15px;
+    color: black;
+    font-size: 13px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+
+#vertical-nav #content > a:hover{
+    background-color: burlywood;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* vertical navbar end */
